@@ -10,6 +10,10 @@ body {
     text-align: center;
 }
 
+h1 {
+    color:hsla(225, 36%, 4%, 0.25);
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -25,6 +29,21 @@ form {
 input::placeholder  {
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
-    hsla(225, 36%, 4%, 0.25)
-  }
+    color:hsla(225, 36%, 4%, 0.25);
+    font-size: 24px;
+    padding-left: 15px;
+}
 
+.submit-button {
+    width: 297px;
+    height: 77px;
+    border-radius: 10px;
+    background-color: #006D77;
+    border: hsla(225, 36%, 4%, 0.25) 1px solid;
+}
+
+button::placeholder {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    
+}
