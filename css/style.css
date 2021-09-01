@@ -1,0 +1,30 @@
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+.full-container {
+    width: 417px;
+    height: 655px;
+    background-color: #EDF6F9;
+    border: hsla(0, 0%, 67%, 0.50) 1px solid;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+#email, #password {
+    width: 297px;
+    height: 77px;
+    background-color: #EDF6F9;
+    border: hsla(225, 36%, 4%, 0.25) 1px solid;
+}
+
+input::placeholder  {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    hsla(225, 36%, 4%, 0.25)
+  }
+
